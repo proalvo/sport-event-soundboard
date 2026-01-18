@@ -80,6 +80,9 @@ sport-event-soundboard/
 │   ├─ jingle2.mp3
 │
 └─ renderer/
+
+## Known bugs
+If band name has "/" in the name, its is not swhown correctly -> "AC/DC" becomes "AC"
     ├─ index.html
     ├─ style.css
     └─ renderer.js

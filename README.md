@@ -6,7 +6,7 @@ This is simple yet powerfull MP3 player for sport events.
 - You can create playlists (profiles) for different events e.g. kayaking, foortball, price ceremony, etc.
 - You can create list of jingles (1-16) for the event e.g. special sound effect for goal, or play national anthem in price ceremony.
 - Change of music happens smoothly.
-- Playing Jingle is silencing music by 50%.
+- Playing jingle is silencing music by 50%.
 - There is an application programmin interface (API) to control the software from other services, such as Bitfocus Companion and Stram Deck.
 
 ## Installation for development

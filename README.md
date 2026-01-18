@@ -42,3 +42,27 @@ GET http://127.0.0.1:3131/panic
 GET http://127.0.0.1:3131/volume?level=0.75 (or level=75)
 GET http://127.0.0.1:3131/jingle?file=goal.mp3
 ```
+## Software structure
+sport-event-soundboard/
+│
+├─ main.js
+├─ preload.js
+├─ package.json
+├─ config.json
+│
+├─ profiles/
+│   ├─ football.json
+│   ├─ icehockey.json
+│
+├─ music/
+│   ├─ song1.mp3
+│   ├─ song2.mp3
+│
+├─ jingles/
+│   ├─ jingle1.mp3
+│   ├─ jingle2.mp3
+│
+└─ renderer/
+    ├─ index.html
+    ├─ style.css
+    └─ renderer.js

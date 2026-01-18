@@ -7,7 +7,7 @@ This is simple yet powerfull MP3 player for sport events.
 - You can creat list of jingles for the event e.g. speacial sound effects for goal, or play national anthem in price ceremony.
 - Change of music happens smoothly
 - Playing Jingle is silencing music by 50%.
-- There is an application programmin interface (API) is control the software from some other services or hardware, such as Bitfocus Companion and Stram Deck.
+- There is an application programmin interface (API) to control the software from other services, such as Bitfocus Companion and Stram Deck.
 
 ## Installation for development
 ###

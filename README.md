@@ -1,5 +1,5 @@
 # sport-event-soundboard
-This MP3 player for sport events. 
+This is simple yet powerfull MP3 player for sport events.  
 
 ## Features
 - User interface is simple, maybe not so fancy looking, but everyone shouls know how to use it withjout any training.
@@ -19,13 +19,15 @@ npm start
 
 ## API interface 
 
-Configuration file for port: `config.json` in root directro (in the same with main.js)
+API interface provides basic functional to control the software. You can use e.g. Bitfocus Companion and Stream Desk to control the software.
 
+Configuration file for port: `config.json` in root directory (in the same with main.js)
 ```
 {
   "httpPort": 3131
 }
 ```
+
 API calls:
 ```
 GET http://127.0.0.1:3131/play

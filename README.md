@@ -1,5 +1,5 @@
 # sport-event-soundboard
-This is simple yet powerfull MP3 player for sport events.  
+This is simple yet powerfull MP3 player for sport events. Software is based on node/electron and tested with MS Windows 11.  
 
 ## Features
 - User interface is simple, maybe not so fancy looking, but everyone should be able to use it without any training or instructions.

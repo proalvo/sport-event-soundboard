@@ -43,6 +43,7 @@ GET http://127.0.0.1:3131/volume?level=0.75 (or level=75)
 GET http://127.0.0.1:3131/jingle?file=goal.mp3
 ```
 ## Software structure
+```
 sport-event-soundboard/
 │
 ├─ main.js
@@ -66,3 +67,4 @@ sport-event-soundboard/
     ├─ index.html
     ├─ style.css
     └─ renderer.js
+```

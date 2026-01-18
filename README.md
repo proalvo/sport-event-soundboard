@@ -2,10 +2,10 @@
 This is simple yet powerfull MP3 player for sport events.  
 
 ## Features
-- User interface is simple, maybe not so fancy looking, but everyone shouls know how to use it withjout any training.
+- User interface is simple, maybe not so fancy looking, but everyone should be able to use it without any training or instructions.
 - You can create playlists (profiles) for different events e.g. kayaking, foortball, price ceremony, etc.
-- You can creat list of jingles for the event e.g. speacial sound effects for goal, or play national anthem in price ceremony.
-- Change of music happens smoothly
+- You can create list of jingles for the event e.g. special sound effect for goal, or play national anthem in price ceremony.
+- Change of music happens smoothly.
 - Playing Jingle is silencing music by 50%.
 - There is an application programmin interface (API) to control the software from other services, such as Bitfocus Companion and Stram Deck.
 
@@ -16,6 +16,10 @@ npm start
 ```
 
 ## Installation or production
+
+Copy your mp3 files to ~/jingles and ~/music.
+
+You can create different profiles using the software, but you can create those manually also (following strict JSON syntax). ~/profiles directory has JSON files to define diferent profiles. Each profile has `{name of the pprofile}.json`, with music and jingels. If you havce edited `default.json`,you can use it as an exmaple.  
 
 ## API interface 
 

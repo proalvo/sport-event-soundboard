@@ -45,16 +45,16 @@ Configuration file for port: `config.json` in root directory (in the same with m
 
 API calls (with default port 3131):
 
-`GET http://127.0.0.1:3131/play`
-`GET http://127.0.0.1:3131/pause`
-`GET http://127.0.0.1:3131/stop`
-`GET http://127.0.0.1:3131/next`
-`GET http://127.0.0.1:3131/panic`
-`GET http://127.0.0.1:3131/volume?level=0.75` (or level=75)
-`GET http://127.0.0.1:3131/jingle?file=goal.mp3`
-`GET http://127.0.0.1:3131/playFile?file=song1.mp3` direct track start
-`GET http://127.0.0.1:3131/playTag?tag=FIN` plays next track matching that tag (or first match)
-`GET http://127.0.0.1:3131/tags` list all tags + associated files (for Companion dynamic feedback)
+- `GET http://127.0.0.1:3131/play`
+- `GET http://127.0.0.1:3131/pause`
+- `GET http://127.0.0.1:3131/stop`
+- `GET http://127.0.0.1:3131/next`
+- `GET http://127.0.0.1:3131/panic`
+- `GET http://127.0.0.1:3131/volume?level=0.75` (or level=75)
+- `GET http://127.0.0.1:3131/jingle?file=goal.mp3`
+- `GET http://127.0.0.1:3131/playFile?file=song1.mp3` direct track start
+- `GET http://127.0.0.1:3131/playTag?tag=FIN` plays next track matching that tag (or first match)
+- `GET http://127.0.0.1:3131/tags` list all tags + associated files (for Companion dynamic feedback)
 
 
 ## Software structure

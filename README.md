@@ -8,6 +8,7 @@ This is simple yet powerfull MP3 player for sport events. Software is based on n
 - Change of music happens smoothly.
 - Playing jingle is silencing music by 50%.
 - There is an application programmin interface (API) to control the software from other services, such as Bitfocus Companion and Stram Deck.
+- Every music track can have 0..N tags (strings). Tags are per profile (so football profile can have different tags than award ceremony profile). Examples: `"23"`, `"Finland"`, `"Team GB"`, `"Goalkeeper"`, `"Warmup"`
 
 ## Installation for development
 ###
@@ -15,7 +16,17 @@ This is simple yet powerfull MP3 player for sport events. Software is based on n
 npm start
 ```
 
-## Installation or production
+## Packaging “Sport Event Soundboard” as a Windows EXE Installer
+
+### 1. copy software from Github 
+
+### 2. Install electron-builder
+
+From your project root:
+```
+npm install --save-dev electron-builder
+```
+
 
 Copy your mp3 files to ~/jingles and ~/music.
 
@@ -32,16 +43,20 @@ Configuration file for port: `config.json` in root directory (in the same with m
 }
 ```
 
-API calls:
-```
-GET http://127.0.0.1:3131/play
-GET http://127.0.0.1:3131/pause
-GET http://127.0.0.1:3131/stop
-GET http://127.0.0.1:3131/next
-GET http://127.0.0.1:3131/panic
-GET http://127.0.0.1:3131/volume?level=0.75 (or level=75)
-GET http://127.0.0.1:3131/jingle?file=goal.mp3
-```
+API calls (with default port 3131):
+
+`GET http://127.0.0.1:3131/play`
+`GET http://127.0.0.1:3131/pause`
+`GET http://127.0.0.1:3131/stop`
+`GET http://127.0.0.1:3131/next`
+`GET http://127.0.0.1:3131/panic`
+`GET http://127.0.0.1:3131/volume?level=0.75` (or level=75)
+`GET http://127.0.0.1:3131/jingle?file=goal.mp3`
+`GET http://127.0.0.1:3131/playFile?file=song1.mp3` direct track start
+`GET http://127.0.0.1:3131/playTag?tag=FIN` plays next track matching that tag (or first match)
+`GET http://127.0.0.1:3131/tags` list all tags + associated files (for Companion dynamic feedback)
+
+
 ## Software structure
 ```
 sport-event-soundboard/
@@ -50,6 +65,7 @@ sport-event-soundboard/
 ├─ preload.js
 ├─ package.json
 ├─ config.json
+├─ icon.ico
 │
 ├─ profiles/
 │   ├─ football.json

@@ -18,6 +18,15 @@ npm start
 ## Installation or production
 
 ## API interface 
+
+Configuration file for port: `config.json` in root directro (in the same with main.js)
+
+```
+{
+  "httpPort": 3131
+}
+```
+API calls:
 ```
 GET http://127.0.0.1:3131/play
 GET http://127.0.0.1:3131/pause

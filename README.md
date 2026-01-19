@@ -3,7 +3,7 @@ This is simple yet powerfull MP3 player for sport events. Software is based on n
 
 ## Features
 - User interface is simple, maybe not so fancy looking, but everyone should be able to use it without any training or instructions.
-- You can create playlists (profiles) for different events e.g. kayaking, foortball, price ceremony, etc.
+- You can create profiles (playlists) for different events e.g. kayaking, foortball, price ceremony, etc. Profile is stored as a JSON file under profiles directory. 
 - You can create list of jingles (1-16) for the event e.g. special sound effect for goal, or play national anthem in price ceremony.
 - Change of music happens smoothly.
 - Playing jingle is silencing music by 50%.

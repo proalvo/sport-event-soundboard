@@ -36,6 +36,8 @@ You can create different profiles using the software, but you can create those m
 
 API interface provides basic functional to control the software. You can use e.g. Bitfocus Companion and Stream Desk to control the software.
 
+Note that the API works within the same computer with sport-event-soundboard i.e. address is always 127.0.0.1 ("localhost" should work also works). 
+
 Configuration file for port: `config.json` in root directory (in the same with main.js)
 ```
 {

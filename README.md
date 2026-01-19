@@ -10,7 +10,7 @@ This is simple yet powerfull MP3 player for sport events. Software is based on n
 - There is an application programmin interface (API) to control the software from other services, such as Bitfocus Companion and Stram Deck.
 - Every music track can have 0..N tags (strings). Tags are per profile (so football profile can have different tags than award ceremony profile). Examples: `"23"`, `"Finland"`, `"Team GB"`, `"Goalkeeper"`, `"Warmup"`
 
-[See UI](images/screenshot-1.png)
+![See UI](images/screenshot-1.png)
 
 ## Installation for development
 ###

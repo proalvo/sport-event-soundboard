@@ -13,6 +13,8 @@ This is simple yet powerfull MP3 player for sport events. Software is based on n
 ## Installation for development
 ###
 ```
+npm install
+npm install music-metadata
 npm start
 ```
 

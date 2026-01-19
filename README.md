@@ -93,5 +93,6 @@ sport-event-soundboard/
 
 
 ## Known bugs
-- If band name has "/" in the name, its is not swhown correctly -> "AC/DC" becomes "AC"
-- Editing tags can stop working in some situations. Jus start the softwaere again.
+- minor: If band name has "/" in the name, its is not shown correctly -> "AC/DC" becomes "AC"
+- minor: Editing tags can stop working in some situations. Jus start the softwaere again.
+- minor: If Artist name is "X" in jingle, then the file name is shown in UI instead of the Title.

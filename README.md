@@ -93,4 +93,5 @@ sport-event-soundboard/
 
 
 ## Known bugs
-If band name has "/" in the name, its is not swhown correctly -> "AC/DC" becomes "AC"
+- If band name has "/" in the name, its is not swhown correctly -> "AC/DC" becomes "AC"
+- Editing tags can stop working in some situations. Jus start the softwaere again.

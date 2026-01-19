@@ -10,6 +10,8 @@ This is simple yet powerfull MP3 player for sport events. Software is based on n
 - There is an application programmin interface (API) to control the software from other services, such as Bitfocus Companion and Stram Deck.
 - Every music track can have 0..N tags (strings). Tags are per profile (so football profile can have different tags than award ceremony profile). Examples: `"23"`, `"Finland"`, `"Team GB"`, `"Goalkeeper"`, `"Warmup"`
 
+[See UI](images/screenshot-1.png)
+
 ## Installation for development
 ###
 ```
@@ -58,7 +60,7 @@ API calls (with default port 3131):
 - `GET http://127.0.0.1:3131/jingle?file=goal.mp3`
 - `GET http://127.0.0.1:3131/playFile?file=song1.mp3` direct track start
 - `GET http://127.0.0.1:3131/playTag?tag=FIN` plays next track matching that tag (or first match)
-- `GET http://127.0.0.1:3131/tags` list all tags + associated files (for Companion dynamic feedback)
+- `GET http://127.0.0.1:3131/tags` list all tags + associated files in currently active profile 
 
 
 ## Software structure

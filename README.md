@@ -9,7 +9,7 @@ This is simple yet powerfull MP3 player for sport events. Software is based on n
 - You can create list of jingles (1-16) for the event e.g. special sound effect for goal, or play national anthem in price ceremony.
 - Change of music happens smoothly.
 - Playing jingle is silencing music by 50%.
-- There is an application programmin interface (API) to control the software from other services, such as Bitfocus Companion and Stram Deck.
+- There is an application programmin interface (API) to control the software from other services, such as Bitfocus Companion and Stream Deck.
 - Every music track can have 0..N tags (strings). Tags are per profile (so football profile can have different tags than award ceremony profile). Examples: `"23"`, `"Finland"`, `"Team GB"`, `"Goalkeeper"`, `"Warmup"`
 
 ![See UI](images/screenshot-1.png)

@@ -2,14 +2,14 @@
 This is simple yet powerfull MP3 player for sport events. Software is based on node/electron and tested with MS Windows 11.  
 
 ## Features
-- User interface is simple, maybe not so fancy looking, but everyone should be able to use it without any training or instructions. Adding files require basic understnading about directories.
+- User interface is simple, maybe not so fancy looking, but everyone should be able to use it without any training or instructions. Adding audio files require basic understanding about directories.
 - Music files are stored in the program folder, under `/music`
-- Jingel files are stored in the program folder, under `/jingles`
-- You can create profiles (playlists) for different events e.g. kayaking, foortball, price ceremony, etc. Profile is stored as a JSON file under profiles directory. 
+- Jingle files are stored in the program folder, under `/jingles`
+- You can create profiles (playlists) for different events e.g. kayaking, football, price ceremony, etc. Profile is stored as a JSON file under profiles directory. 
 - You can create list of jingles (1-16) for the event e.g. special sound effect for goal, or play national anthem in price ceremony.
-- Change of music happens smoothly.
+- Change of music happens smoothly: fade out/in in 1.5 sec with 1.0 sec overlapping.
 - Playing jingle is silencing music by 50%.
-- There is an application programmin interface (API) to control the software from other services, such as Bitfocus Companion and Stream Deck.
+- There is an application programming interface (API) to control the software from other services, such as Bitfocus Companion and Stream Deck.
 - Every music track can have 0..N tags (strings). Tags are per profile (so football profile can have different tags than award ceremony profile). Examples: `"23"`, `"Finland"`, `"Team GB"`, `"Goalkeeper"`, `"Warmup"`
 
 ![See UI](images/screenshot-1.png)
@@ -48,7 +48,7 @@ API interface provides basic functional to control the software. You can use e.g
 
 Note that the API works within the same computer with sport-event-soundboard i.e. address is always 127.0.0.1 ("localhost" should work also works). 
 
-Configuration file for port: `config.json` in root directory (in the same with main.js)
+Configuration for the port is `config.json` in root directory (in the same with `main.js`). `bindHost` define an IP address - I never tested if other than localhost (`127.0.0.1`) would work. 
 ```
 {
   "httpPort": 3131
@@ -82,7 +82,7 @@ sport-event-soundboard/
 │
 ├─ profiles/
 │   ├─ football.json
-│   ├─ icehockey.json
+│   ├─ freestyle.json
 │
 ├─ music/
 │   ├─ song1.mp3

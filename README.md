@@ -28,11 +28,15 @@ npm start
 
 ### 2. Install electron-builder
 
+I have successfully compiled software to exe with node v22.22.0 and npm version 10.9.4. Latest node version failed.
+
 From your project root:
 ```
 npm install --save-dev electron-builder
+npm init
+npm run dist
 ```
-
+If you are lucky, you have `Sport Event Soundboard Setup 1.0.0.exe` in `dist` directory.
 
 Copy your mp3 files to ~/jingles and ~/music.
 

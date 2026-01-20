@@ -52,6 +52,7 @@ Configuration file for port: `config.json` in root directory (in the same with m
 ```
 {
   "httpPort": 3131
+  "bindHost": "127.0.0.1"
 }
 ```
 
